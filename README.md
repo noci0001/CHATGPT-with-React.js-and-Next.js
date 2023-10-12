@@ -1,1 +1,1 @@
-## Website personal project: code a CHATGPT website with React.js and Next.js
+## Website personal project: CHATGPT dummy website with React.js and Next.js
