@@ -4,5 +4,4 @@
 ![Landing Page 2](https://github.com/noci0001/Website-personal-project-CHATGPT-dummy-website-with-React.js-and-Next.js/blob/main/C82C634D-31DA-4356-B7C0-FD87165A1BA2.jpeg)
 ![Landing Page 3](https://github.com/noci0001/Website-personal-project-CHATGPT-dummy-website-with-React.js-and-Next.js/blob/main/A46F0382-9E9A-4AC2-BCCF-39C50886E9E0.jpeg)
 ![Landing Page 4](https://github.com/noci0001/Website-personal-project-CHATGPT-dummy-website-with-React.js-and-Next.js/blob/main/7619467D-421C-4FA3-9950-0EEF5F92BD71.jpeg)
-![Landing Page 5](https://github.com/noci0001/Website-personal-project-CHATGPT-dummy-website-with-React.js-and-Next.js/blob/main/646FA735-B0A6-42DE-A216-819187F1C765.jpeg)
 ![Landing Page 6](https://github.com/noci0001/Website-personal-project-CHATGPT-dummy-website-with-React.js-and-Next.js/blob/main/452EFFFD-6274-4339-8ED4-752CEEA8553B.jpeg)
