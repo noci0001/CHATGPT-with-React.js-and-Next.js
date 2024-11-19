@@ -26,7 +26,7 @@
     font-family: var(--font-family);
     color: var(--color-text);
     font-weight: 800;
-    font-size: 50px;
+    font-size: 3rem;
     line-height: 45px;
 }
 
@@ -115,6 +115,13 @@
 
 @media screen and (max-width: 650px) {
 
+    #whatsection_title {
+        display: relative;
+        padding: 0;
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
     /* Customizing feature component as per needs */
     .greentech__whatgreentech-feature .greentech__features-container__feature {
         flex-direction: column;
@@ -132,6 +139,8 @@
 }
 
 @media screen and (max-width: 350px) {
+
+
 
     /* Customizing feature component as per needs */
     .greentech__whatgreentech-container .greentech__features-container__feature {

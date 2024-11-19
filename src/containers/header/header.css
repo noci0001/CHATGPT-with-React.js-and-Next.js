@@ -29,6 +29,25 @@
     color: var(--color-text);
 
     margin-top: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.greentech__header-content p:hover::after {
+    position: absolute;
+    content: "Because our planet is not an iheritance of our fathers, but a lon from our children";
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.greentech__header-content p:hover,
+.greentech__header-content p:focus {
+    color: transparent;
 }
 
 .greentech__header-content__input {
@@ -262,6 +281,48 @@
 }
 
 @media screen and (max-width: 490px) {
+
+    .greentech_header .hero_padding {
+        padding: 0;
+    }
+
+    .navpad {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+        margin-bottom: 200px;
+    }
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .div3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .div4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .div5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .div6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .div7 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
     .greentech__header-content h1 {
         font-size: 36px;
         line-height: 48px;

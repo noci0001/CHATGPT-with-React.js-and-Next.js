@@ -116,6 +116,12 @@
 }
 
 @media screen and (max-width: 550px) {
+    .greentech__navbar-menu {
+        margin-bottom: 0px;
+        margin-left: 90%;
+        margin-right: 0;
+    }
+
     .greentech__navbar {
         padding: 2rem;
     }

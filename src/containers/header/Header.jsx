@@ -4,7 +4,7 @@ import './header.css';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
-  const { t } = useTranslation(); // Initialize useTranslation hook
+  const { t } = useTranslation();
 
   return (
     <div className="greentech__header hero__padding" id="home">

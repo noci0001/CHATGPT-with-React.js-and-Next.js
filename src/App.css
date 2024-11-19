@@ -107,6 +107,12 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+
+  .navpad {
+    grid-template-columns: 1fr;
+    /* Change to 1 column */
+  }
+
   .section__padding {
     padding: 4rem;
   }
