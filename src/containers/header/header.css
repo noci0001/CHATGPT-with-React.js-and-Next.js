@@ -35,7 +35,7 @@
 
 .greentech__header-content p:hover::after {
     position: absolute;
-    content: "Because our planet is not an iheritance of our fathers, but a lon from our children";
+    content: "Because our planet is not an iheritance of our fathers, but a loan from our children";
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 20px;
