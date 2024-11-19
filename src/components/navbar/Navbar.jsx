@@ -26,6 +26,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="greentech__navbar-menu_container scale-up-center">
             <div className="greentech__navbar-menu_container-links">
+              <h3>Change language to: </h3>
               <button onClick={() => changeLanguage('en')}>English</button>
               <button onClick={() => changeLanguage('it')}>Italiano</button>
             </div>

@@ -136,6 +136,7 @@
 }
 
 .navpad {
+    z-index: 9;
     width: 100%;
     height: 450px;
     max-width: 2030px;

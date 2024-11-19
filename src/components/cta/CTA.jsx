@@ -8,7 +8,7 @@ const CTA = () => {
   return (
     <div className="greentech__cta">
       <div className="greentech__cta-content">
-        <p>{t('cta.contact')}</p>
+        <p id="contacts">{t('cta.contact')}</p>
         <h3>{t('cta.writeToday')}</h3>
       </div>
       <div className="greentech__cta-btn">

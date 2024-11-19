@@ -24,6 +24,7 @@
 
 .greentech__navbar-links_container {
     display: flex;
+    z-index: 100;
     flex-direction: row;
 }
 
@@ -64,9 +65,8 @@
 }
 
 .greentech__navbar-menu {
-    margin-left: 1rem;
-
-    position: relative;
+    right: 50px;
+    position: fixed;
 }
 
 .greentech__navbar-menu svg {
@@ -74,19 +74,19 @@
 }
 
 .greentech__navbar-menu_container {
+    font-family: var(--font-family);
+    z-index: 10;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     text-align: end;
     background: var(--color-footer);
-    padding: 1rem;
+    padding: 0.7rem;
     position: absolute;
     right: 0;
     top: 40px;
-    margin-top: 1rem;
-    min-width: 110px;
+    min-width: 230px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
@@ -96,6 +96,7 @@
 }
 
 .greentech__navbar-menu_container-links-sign {
+    z-index: 10;
     display: none;
 }
 
