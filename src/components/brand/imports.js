@@ -1,13 +1,9 @@
-import google from '../../assets/google.png'
-import slack from '../../assets/slack.png'
-import atlassian from '../../assets/atlassian.png'
-import dropbox from '../../assets/dropbox.png'
-import shopify from '../../assets/shopify.png'
+import PIM from '../../assets/PIM.png'
+import LAINOX from '../../assets/Lainox.png'
+import TEKA from '../../assets/TEKA.png'
 
 export {
-    google,
-    slack,
-    atlassian,
-    dropbox,
-    shopify,
+    PIM,
+    LAINOX,
+    TEKA,
 }

@@ -1,16 +1,21 @@
 import React from 'react';
 import './cta.css';
+import { useTranslation } from 'react-i18next';
 
-const CTA = () => (
-  <div className="gpt3__cta">
-    <div className="gpt3__cta-content">
-      <p>Request Early Access to Get Started</p>
-      <h3>Register Today & start exploring the endless possibilities.</h3>
+const CTA = () => {
+  const { t } = useTranslation(); // Initialize useTranslation hook
+
+  return (
+    <div className="greentech__cta">
+      <div className="greentech__cta-content">
+        <p>{t('cta.contact')}</p>
+        <h3>{t('cta.writeToday')}</h3>
+      </div>
+      <div className="greentech__cta-btn">
+        <button type="button">{t('cta.getStarted')}</button>
+      </div>
     </div>
-    <div className="gpt3__cta-btn">
-      <button type="button">Get Started</button>
-    </div>
-  </div>
-);
+  );
+};
 
 export default CTA;

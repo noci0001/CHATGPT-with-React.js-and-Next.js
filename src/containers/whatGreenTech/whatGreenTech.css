@@ -1,0 +1,141 @@
+.greentech__whatgreentech {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 3% 25%, rgb(0, 83, 28) 0%, rgb(30, 161, 74) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 3% 25%, rgb(0, 83, 37) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 3% 25%, rgb(0, 83, 33) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 3% 25%, rgb(0, 83, 0) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgb(14, 63, 23) 0%, rgba(4, 12, 24, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#whatsection_title {
+    padding: 2.5rem;
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.greentech__whatgreentech-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.greentech__whatgreentech-feature .greentech__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.greentech__whatgreentech-feature .greentech__features-container_feature-text {
+    max-width: 700px;
+}
+
+.greentech__whatgreentech-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+
+.greentech__whatgreentech-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.greentech__whatgreentech-heading p {
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.greentech__whatgreentech-heading p:hover {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+
+.greentech__whatgreentech-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+.greentech__whatgreentech-container .greentech__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.greentech__whatgreentech-container .greentech__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .greentech__whatgreentech-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .greentech__whatgreentech-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Customizing feature component as per needs */
+    .greentech__whatgreentech-feature .greentech__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .greentech__whatgreentech-feature .greentech__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .greentech__whatgreentech-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    /* Customizing feature component as per needs */
+    .greentech__whatgreentech-container .greentech__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

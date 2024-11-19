@@ -1,24 +1,24 @@
-.gtp3__blog-container_article{
+.greentech__blog-container_article {
     width: 100%;
     height: 100%;
 
     display: flex;
     flex-direction: column;
-    background: var(--color-footer);
+    background: var(--gradient-bar);
 }
 
-.gtp3__blog-container_article-image {
+.greentech__blog-container_article-image {
     width: 100%;
     height: 100%;
-    background: var(--color-footer);
+
 }
 
-.gtp3__blog-container_article-image img{
+.greentech__blog-container_article-image img {
     width: 100%;
     height: 100%;
 }
 
-.gtp3__blog-container_article-content {
+.greentech__blog-container_article-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,14 +27,15 @@
     height: 100%;
 }
 
-.gtp3__blog-container_article-content p{
+.greentech__blog-container_article-content p {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 11.649px;
     line-height: 35px;
     color: #FFFFFF;
 }
-.gtp3__blog-container_article-content h3{
+
+.greentech__blog-container_article-content h3 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 19.3154px;
@@ -43,7 +44,8 @@
     margin-bottom: 5rem;
     color: #FFFFFF;
 }
-.gtp3__blog-container_article-content p:last-child{
+
+.greentech__blog-container_article-content p:last-child {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
@@ -54,7 +56,7 @@
 }
 
 @media screen and (max-width: 550px) {
-    .gtp3__blog-container_article-content h3{
+    .greentech__blog-container_article-content h3 {
         font-size: 10px;
         line-height: 25px;
     }

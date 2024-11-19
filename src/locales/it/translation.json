@@ -1,0 +1,86 @@
+{
+   "header": {
+      "title": "GreenWaves",
+      "subtitle": "Technologies",
+      "description": "Perché il nostro pianeta non è un lascito dei nostri genitori, ma un prestito dai nostri figli."
+   },
+   "nav": {
+      "home": "HOME",
+      "aboutUs": "CHI SIAMO",
+      "services": "SERVIZI",
+      "contact": "CONTATTI",
+      "blog": "BLOG",
+      "careers": "LAVORA CON NOI",
+      "partners": "PARTNER"
+   },
+   "brand": {
+      "title": "Tra i nostri clienti più illustri:",
+      "lainox": "Logo di Lainox",
+      "teka": "Logo di Teka",
+      "pim": "Logo di PIM"
+   },
+   "whatGreenTech": {
+      "title": "MICROONDE, RADIOFREQUENZE, INDUZIONE",
+      "aboutTitle": "Di cosa si occupa GreenWaves Technologies",
+      "aboutText": "La nostra missione è progettare, sviluppare e fornire soluzioni tecnologiche basate su microonde, radiofrequenze e induzione che soddisfino le esigenze di efficienza, sostenibilità e innovazione per clienti domestici, professionali e industriali.",
+      "heading": "Tecnologie innovative per un futuro sostenibile",
+      "explorePortfolio": "ESPLORA IL NOSTRO PORTFOLIO",
+      "valueCreationTitle": "Creazione di Valore",
+      "valueCreationText": "Offrire prodotti e servizi affidabili, performanti e sicuri che migliorino l'efficienza energetica e semplifichino le attività quotidiane e professionali.",
+      "innovationTitle": "Innovare con Sostenibilità",
+      "innovationText": "Integrare soluzioni tecnologiche avanzate con un design eco-compatibile, riducendo l'impatto ambientale e contribuendo a un futuro più verde.",
+      "qualityTitle": "Promuovere Qualità e Sicurezza",
+      "qualityText": "Progettare sistemi ad alta precisione che soddisfino i più elevati standard internazionali, garantendo prestazioni eccellenti e una lunga durata.",
+      "partnerTitle": "Essere un Partner Affidabile",
+      "partnerText": "Collaborare con i nostri clienti e partner per sviluppare soluzioni personalizzate che soddisfino le esigenze specifiche dei diversi settori, dalla casa all'industria.",
+      "changeTitle": "Guidare il Cambiamento",
+      "changeText": "Anticipare le tendenze del mercato attraverso ricerca e sviluppo, portando innovazioni rivoluzionarie nei settori degli elettrodomestici e delle attrezzature industriali."
+   },
+   "features": {
+      "heading": "La nostra visione è diventare un punto di riferimento globale per soluzioni all'avanguardia che migliorano l'efficienza energetica, la sostenibilità e la qualità della vita.",
+      "description": "Vogliamo creare un ecosistema tecnologico che combini efficienza, sicurezza e sostenibilità, anticipando le sfide future e migliorando l'esperienza dei nostri utenti.",
+      "technologicalInnovationTitle": "Innovazione Tecnologica",
+      "technologicalInnovationText": "Sfruttiamo tecnologie avanzate per creare prodotti intelligenti e ad alte prestazioni che soddisfino le esigenze sempre più complesse dei mercati domestici e professionali.",
+      "environmentalSustainabilityTitle": "Sostenibilità Ambientale",
+      "environmentalSustainabilityText": "Crediamo in un futuro sostenibile. Ogni prodotto è progettato per ridurre al minimo l'impatto ambientale ottimizzando il consumo energetico e promuovendo un uso responsabile delle risorse.",
+      "qualityReliabilityTitle": "Qualità e Affidabilità",
+      "qualityReliabilityText": "Combiniamo precisione ingegneristica con design funzionale ed elegante, garantendo soluzioni durevoli che si adattano perfettamente a ogni contesto, dalla casa all'industria su larga scala.",
+      "customizationFlexibilityTitle": "Personalizzazione e Flessibilità",
+      "customizationFlexibilityText": "Offriamo soluzioni su misura che soddisfano le esigenze specifiche dei nostri clienti, sia per uso domestico che industriale.",
+      "globalImpactTitle": "Impatto Globale",
+      "globalImpactText": "Miriamo a migliorare la vita quotidiana e la produttività industriale in tutto il mondo promuovendo una tecnologia accessibile, etica e di alta qualità."
+   },
+   "cta": {
+      "contact": "Contattaci per iniziare",
+      "writeToday": "Scrivici oggi e inizia a esplorare infinite possibilità.",
+      "getStarted": "Inizia Qui"
+   },
+   "footer": {
+      "title": "GreenWaves Tecnologie",
+      "contactUs": "Contattaci",
+      "logoAlt": "Logo di GreenWaves Tecnologie",
+      "address": "Via Stadio 4, Camisano Vicentino",
+      "rightsReserved": "Tutti i diritti riservati",
+      "links": "Link",
+      "overons": "Chi siamo",
+      "socialMedia": "Social Media",
+      "contact": "Contatto",
+      "company": "Azienda",
+      "terms": "Termini e condizioni",
+      "privacy": "Politica sulla privacy",
+      "getInTouch": "Contattaci",
+      "fullAddress": "Via Stadio 4, Camisano, Veneto",
+      "phone": "[MOSTRA NUMERO]",
+      "email": "info@greentech.com",
+      "copyright": "@2025 GreenWaves Tecnologie. Tutti i diritti riservati.",
+      "codedBy": "Questo sito è stato realizzato da"
+   },
+   "blog": {
+      "heading": "Molto sta accadendo, Ne stiamo scrivendo sul nostro blog.",
+      "article1Title": "GreenWaves Technologies è il futuro. Esploriamo come?",
+      "article2Title": "Scopri le soluzioni innovative per l'efficienza energetica.",
+      "article3Title": "Come GreenWaves promuove la sostenibilità attraverso la tecnologia.",
+      "article4Title": "Soluzioni avanzate a microonde e RF nelle applicazioni industriali.",
+      "article5Title": "Il ruolo delle tecnologie a induzione nelle industrie moderne."
+   }
+}

@@ -1,29 +1,34 @@
 import React from 'react';
 import people from '../../assets/people.png';
-import ai from '../../assets/ai.png';
 import './header.css';
+import { useTranslation } from 'react-i18next';
 
-const Header = () => (
-  <div className="gpt3__header section__padding" id="home">
-    <div className="gpt3__header-content">
-      <h1 className="gradient__text">Let&apos;s build something amazing with GPT-3 OpenAI</h1>
-      <p>GPT-3 is one of the largest and most well-known neural networks for natural language applications available. With 175 billion parameters, the model easily outpaces similar models. OpenAI's GPT-3 architecture represents a seminal shift in AI research and use.</p>
+const Header = () => {
+  const { t } = useTranslation(); // Initialize useTranslation hook
 
-      <div className="gpt3__header-content__input">
-        <input type="email" placeholder="Your Email Address" />
-        <button type="button">Get Started</button>
+  return (
+    <div className="greentech__header hero__padding" id="home">
+      <div className="greentech__header-content">
+        <h1 className="title">
+          {t('header.title')} <br />
+          {t('header.subtitle')}
+        </h1>
+        <p>
+          {t('header.description')}
+        </p>
       </div>
-
-      <div className="gpt3__header-content__people">
-        <img src={people} />
-        <p>1,600 people requested access a visit in last 24 hours</p>
+      <div className='navpad__container'></div>
+      <div className="navpad">
+        <div className="div1"><a href="#home">{t('nav.home')}</a></div>
+        <div className="div2"><a href="#aboutus">{t('nav.aboutUs')}</a></div>
+        <div className="div3"><a href="#features">{t('nav.services')}</a></div>
+        <div className="div4"><a href="#contacts">{t('nav.contact')}</a></div>
+        <div className="div5"><a href="#blog">{t('nav.blog')}</a></div>
+        <div className="div6"><a href="#careers">{t('nav.careers')}</a></div>
+        <div className="div7"><a href="#partners">{t('nav.partners')}</a></div>
       </div>
     </div>
-
-    <div className="gpt3__header-image">
-      <img src={ai} />
-    </div>
-  </div>
-);
+  );
+};
 
 export default Header;

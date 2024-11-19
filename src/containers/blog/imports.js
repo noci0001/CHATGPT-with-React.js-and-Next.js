@@ -3,9 +3,11 @@ import blog02 from '../../assets/blog02.png'
 import blog03 from '../../assets/blog03.png'
 import blog04 from '../../assets/blog04.png'
 import blog05 from '../../assets/blog05.png'
+import waves from '../../assets/navpadback.png'
 
 
 export {
+    waves,
     blog01,
     blog02,
     blog03,

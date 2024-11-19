@@ -1,11 +1,21 @@
-.gpt3__brand {
+.greentech__brand p {
+    width: 250px;
+    justify-self: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.greentech__brand {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.gpt3__brand div{
+.greentech__brand div {
     flex: 1;
     max-width: 15px;
     min-width: 120px;
@@ -14,4 +24,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#lainox {
+    border: 25px white solid;
 }

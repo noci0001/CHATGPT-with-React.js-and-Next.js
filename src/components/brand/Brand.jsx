@@ -1,26 +1,23 @@
 import React from 'react';
 import './brand.css';
-import {google, slack, atlassian, dropbox, shopify} from './imports.js'
+import { LAINOX, PIM, TEKA } from './imports.js'
+import { useTranslation } from 'react-i18next';
 
 const Brand = () => {
+  const { t } = useTranslation();
   return (
-    <div className='gpt3__brand section__padding'>
+    <div className='greentech__brand section__padding'>
+      <p>{t('brand.title')}</p>
       <div>
-          <img src={google} alt='google'/>
+        <img id="lainox" src={LAINOX} width={"150px"} alt='Lainox' />
       </div>
       <div>
-          <img src={slack} alt='slack'/>
+        <img src={TEKA} width={"60px"} alt='Teka' />
       </div>
       <div>
-          <img src={atlassian} alt='atlassian'/>
+        <img src={PIM} width={"125px"} alt='PIM' />
       </div>
-      <div>
-          <img src={dropbox} alt='dropbox'/>
-      </div>
-      <div>
-          <img src={shopify} alt='shopify'/>
-      </div>
-    </div>
+    </div >
   )
 }
 
