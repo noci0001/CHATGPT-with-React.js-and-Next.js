@@ -19,11 +19,11 @@ const Header = () => {
       </div>
       <div className='navpad__container'></div>
       <div className="navpad">
-        <div className="div1"><a href="#home">{t('nav.home')}</a></div>
+        <div className="div1"><a href="#services">{t('nav.services')}</a></div>
         <div className="div2"><a href="#aboutus">{t('nav.aboutUs')}</a></div>
-        <div className="div3"><a href="#features">{t('nav.services')}</a></div>
+        <div className="div3"><a href="#blog">{t('nav.blog')}</a></div>
         <div className="div4"><a href="#contacts">{t('nav.contact')}</a></div>
-        <div className="div5"><a href="#blog">{t('nav.blog')}</a></div>
+        <div className="div5"><a href="#portfolio">{t('nav.portfolio')}</a></div>
         <div className="div6"><a href="#careers">{t('nav.careers')}</a></div>
         <div className="div7"><a href="#partners">{t('nav.partners')}</a></div>
       </div>

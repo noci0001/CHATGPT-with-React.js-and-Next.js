@@ -5,11 +5,11 @@
       "description": "Perché il nostro pianeta non è un lascito dei nostri genitori, ma un prestito dai nostri figli."
    },
    "nav": {
-      "home": "HOME",
-      "aboutUs": "ABOUT US",
       "services": "SERVICES",
-      "contact": "CONTACTS",
+      "aboutUs": "ABOUT US",
       "blog": "BLOG",
+      "contact": "CONTACTS",
+      "portfolio": "PORTFOLIO",
       "careers": "CAREERS",
       "partners": "PARTNERS"
    },

@@ -17,7 +17,8 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 125px;
-    line-height: 105px;
+    line-height: 120px;
+    padding: 1.5rem;
     letter-spacing: -0.04em;
 }
 
@@ -31,9 +32,12 @@
     margin-top: 1.5rem;
     cursor: pointer;
     transition: color 0.3s ease;
+    position: relative;
 }
 
 .greentech__header-content p:hover::after {
+    top: 0;
+    left: 0;
     position: absolute;
     content: "Because our planet is not an iheritance of our fathers, but a loan from our children";
     font-family: var(--font-family);
@@ -41,8 +45,7 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
-
-    margin-top: 1.5rem;
+    white-space: nowrap;
 }
 
 .greentech__header-content p:hover,
@@ -196,12 +199,18 @@
     font-size: 20px;
     line-height: 28px;
     color: white;
+    filter: brightness(1);
 }
 
 .navpad div:hover {
     background-color: hsla(36, 0%, 0%, 0.2);
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    filter: brightness(1);
+}
+
+.navpad:hover div:not(:hover) {
+    filter: brightness(0.5); /* Dim non-hovered elements only when hovering on the parent */
 }
 
 .div1 {
@@ -282,6 +291,23 @@
 }
 
 @media screen and (max-width: 490px) {
+
+    .greentech__header-content p:hover::after {
+        top: 0;
+        left: 0;
+        position: absolute;
+        height: 100px;
+        content: "Because our planet is not an iheritance of our fathers, but a loan from our children";
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        color: var(--color-text);
+        white-space: normal; 
+        max-width: 90%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
 
     .greentech_header .hero_padding {
         padding: 0;
