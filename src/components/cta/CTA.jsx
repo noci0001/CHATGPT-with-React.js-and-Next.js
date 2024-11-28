@@ -36,11 +36,11 @@ const CTA = () => {
           <h3>{t('cta.writeToday')}</h3>
         </div>
         <div className="greentech__cta-btn">
-          <button type="button">{t('cta.getStarted')}</button>
+          <a href="https://calendly.com/d/cqng-fvd-psc?primary_color=00ff05"><button type="button">{t('cta.getStarted')}</button></a>
         </div>
       </div>
       <div className='map'>
-        <h1 className="gradient__text" id ="findus" >FIND US</h1>
+        <h1 className="gradient__text" id="findus" >Location</h1>
         <iframe src="https://storage.googleapis.com/maps-solutions-iwe0dxway6/locator-plus/sds7/locator-plus.html"
           width={"85%"}
           height={"650xp"}

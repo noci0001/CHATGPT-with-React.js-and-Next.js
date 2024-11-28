@@ -83,6 +83,9 @@
 
 @media screen and (max-width: 550px) {
 
+    .map h1{
+        min-width: 120px;
+    }
 
     .map {
         max-width: 0%;

@@ -13,8 +13,7 @@ const Footer = () => {
       </div>
 
       <div className="greentech__footer-btn">
-        <a href="blank">
-          <p>{t('footer.contactUs')}</p></a>
+        <a href='https://calendly.com/d/cqng-fvd-psc?primary_color=00ff05'><p>{t('footer.contactUs')}</p></a>
       </div>
 
       <div className="greentech__footer-links">
