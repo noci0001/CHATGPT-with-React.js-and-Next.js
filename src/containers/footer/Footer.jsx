@@ -1,11 +1,14 @@
 import React from 'react';
 import GreenTechLogo from '../../assets/GreenTechLogo.png';
 import './footer.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const { t } = useTranslation();
-
+  
   return (
     <div className="greentech__footer section__padding">
       <div className="greentech__footer-heading">

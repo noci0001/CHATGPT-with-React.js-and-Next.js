@@ -13,18 +13,6 @@ import { useTranslation } from 'react-i18next';
 //!!! 2 domini -> gwtech.it e greenwavestech.it
 //!!! Morsettiere e connettori
 //!!! BOM -> Bill of Materials
-//DONE linehieght adjust
-
-//DONE  when hovered, other panels lower their contrast
-
-//Numero di ricezione => 384 8443102
-//DONE EMAIL => info@gwtech.it
-
-// FIX donwards scroll
-
-// LOGO? =>
-
-//DONE FIX SPELLING ITALIAN VERSION => GREENWAVES TECHNOLOGIES
 
 const Navbar = () => {
   const { i18n } = useTranslation(); // Access i18n instance
