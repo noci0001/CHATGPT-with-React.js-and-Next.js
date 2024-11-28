@@ -13,7 +13,8 @@ const Footer = () => {
       </div>
 
       <div className="greentech__footer-btn">
-        <p>{t('footer.contactUs')}</p>
+        <a href="blank">
+          <p>{t('footer.contactUs')}</p></a>
       </div>
 
       <div className="greentech__footer-links">

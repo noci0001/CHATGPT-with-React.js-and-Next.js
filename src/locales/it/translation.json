@@ -7,7 +7,7 @@
    "nav": {
       "services": "SERVICES",
       "aboutUs": "CHI SIAMO",
-      "blog": "BLOG",
+      "findus": "DOVE SIAMO",
       "contact": "CONTATTI",
       "portfolio": "PORTFOLIO",
       "careers": "LAVORA CON NOI",
@@ -82,5 +82,11 @@
       "article3Title": "Come GreenWaves promuove la sostenibilità attraverso la tecnologia.",
       "article4Title": "Soluzioni avanzate a microonde e RF nelle applicazioni industriali.",
       "article5Title": "Il ruolo delle tecnologie a induzione nelle industrie moderne."
+   },
+   "findus": {
+      "title": "DOVE SIAMO",
+      "address": "Via Stadio 4, Camisano Vicentino",
+      "phone": "+39 348 844 3102",
+      "email": "info@gwtech.it"
    }
 }

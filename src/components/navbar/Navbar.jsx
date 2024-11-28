@@ -6,11 +6,18 @@ import english_flag from '../../assets/flags/english_flag.png';
 import './navbar.css';
 import { useTranslation } from 'react-i18next';
 
+//!!! CREA LOGO
+//!!! Posizione Google Maps
+//!!! Google MyBusiness
+//!!! Privacy Policy
+//!!! 2 domini -> gwtech.it e greenwavestech.it
+//!!! Morsettiere e connettori
+//!!! BOM -> Bill of Materials
 //DONE linehieght adjust
 
 //DONE  when hovered, other panels lower their contrast
 
-// Numero di ricezione => 
+//Numero di ricezione => 384 8443102
 //DONE EMAIL => info@gwtech.it
 
 // FIX donwards scroll

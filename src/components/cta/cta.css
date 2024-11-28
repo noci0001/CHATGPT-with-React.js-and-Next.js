@@ -10,6 +10,21 @@
     background: var(--gradient-bar)
 }
 
+.map {
+    padding: 4rem 0rem;
+    background-color: transparent;
+}
+
+.map h1 {
+    margin-left: 10%;
+    padding: 1rem;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1rem;
+}
+
 .greentech__cta-content {
     display: flex;
     flex-direction: column;
@@ -67,6 +82,20 @@
 }
 
 @media screen and (max-width: 550px) {
+
+
+    .map {
+        max-width: 0%;
+        margin: 0 5%;
+        padding: 0;
+        background-color: gainsboro;
+    }
+
+    .map iframe {
+        width: 90vw;
+        height: 500px;
+    }
+
     .greentech__cta {
         flex-direction: column;
         margin: 4rem 2rem;

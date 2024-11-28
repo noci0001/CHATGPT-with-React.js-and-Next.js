@@ -7,7 +7,7 @@
    "nav": {
       "services": "SERVICES",
       "aboutUs": "ABOUT US",
-      "blog": "BLOG",
+      "findus": "FIND US",
       "contact": "CONTACTS",
       "portfolio": "PORTFOLIO",
       "careers": "CAREERS",
@@ -71,7 +71,7 @@
       "getInTouch": "Get in touch",
       "fullAddress": "Via Stadio 4, Camisano, Veneto",
       "phone": "[SHOW NUMBER]",
-      "email": "info@greentech.com",
+      "email": "info@gwtech.it",
       "copyright": "@2025 GreenWaves Technologies. All rights reserved.",
       "codedBy": "This site has been coded by"
    },
@@ -82,5 +82,11 @@
       "article3Title": "How GreenWaves promotes sustainability through technology.",
       "article4Title": "Advanced microwave and RF solutions in industrial applications.",
       "article5Title": "The role of induction technologies in modern industries."
+   },
+   "findus": {
+      "title": "FIND US",
+      "address": "Via Stadio 4, Camisano Vicentino",
+      "phone": "+39 348 844 3102 ",
+      "email": "info@gwtech.it"
    }
 }
